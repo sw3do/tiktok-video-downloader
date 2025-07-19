@@ -7,7 +7,6 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/index.ts",
-    "test": "jest",
     "docs": "typedoc",
     "docs:build": "typedoc --out docs src/index.ts",
     "prepublishOnly": "npm run build"
@@ -28,12 +27,9 @@
   "homepage": "https://sw3do.github.io/tiktok-video-downloader",
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "@types/jest": "^29.0.0",
-    "jest": "^29.0.0",
-    "ts-jest": "^29.0.0",
     "ts-node": "^10.0.0",
-    "typescript": "^5.0.0",
-    "typedoc": "^0.25.0"
+    "typedoc": "^0.25.0",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "axios": "^1.6.0",
