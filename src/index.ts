@@ -1,7 +1,7 @@
 /**
  * @fileoverview TikTok Video Downloader - A powerful TypeScript module for downloading TikTok videos
  * @author sw3do
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 import { TikTokDownloader } from './TikTokDownloader';
