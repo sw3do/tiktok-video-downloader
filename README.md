@@ -14,13 +14,13 @@ A powerful TypeScript module for downloading TikTok videos and extracting detail
 ## Installation
 
 ```bash
-npm install @sw3do/tiktok-video-downloader
+npm install sw3do-tiktok-video-downloader
 ```
 
 ## Quick Start
 
 ```typescript
-import { TikTokDownloader } from '@sw3do/tiktok-video-downloader';
+import { TikTokDownloader } from 'sw3do-tiktok-video-downloader';
 
 const downloader = new TikTokDownloader();
 
@@ -121,7 +121,7 @@ interface TikTokDownloadResult {
 ### Basic Video Download
 
 ```typescript
-import { TikTokDownloader } from '@sw3do/tiktok-video-downloader';
+import { TikTokDownloader } from 'sw3do-tiktok-video-downloader';
 
 const downloader = new TikTokDownloader();
 
